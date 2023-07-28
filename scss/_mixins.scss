@@ -1,0 +1,4 @@
+@mixin escalarObjeto ($escala,$tiempo){
+    transform: scale($escala);
+    transition: $tiempo+s;
+}

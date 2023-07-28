@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@keyframes cambioColorSponsors {
+  0% {
+    background-color: rgb(168, 2, 2);
+  }
+  25% {
+    background-color: darkred;
+  }
+  50% {
+    background-color: rgb(73, 1, 1);
+  }
+  75% {
+    background-color: darkred;
+  }
+  100% {
+    background-color: rgb(168, 2, 2);
+  }
+}
+.head {
+  width: 100%;
+  height: 40vh;
+  position: absolute;
+  background-position: bottom;
+  background-image: url("../img/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#gamer {
+  background-position: top;
+  background-image: url("../img/fondogamer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#linkimg {
+  width: 100%;
+}
+
+#link {
+  font-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid;
+  border-color: black;
+}
+
+#sponsors {
+  width: 100%;
+  margin: 0;
+  animation: cambioColorSponsors 10s linear infinite;
+}
+#sponsors a {
+  overflow: hidden;
+}
+#sponsors a img {
+  width: 100%;
+  transition: 1s;
+}
+#sponsors a img:hover {
+  transform: scale(1.2);
+  transition: 4s;
+}
+
+#headerp {
+  position: sticky;
+  width: 100%;
+  height: 40vh;
+  margin: 0;
+  right: 0;
+  top: 0;
+  z-index: 99;
+}
+
+#headers {
+  position: sticky;
+  margin: 0;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 99;
+  background-position: bottom;
+  background-image: url("../img/banner2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#logo {
+  width: 100px;
+  transition: 2s;
+}
+
+#logo:hover {
+  transform: scale(1.3);
+  transition: 4s;
+}
+
+#nosotrostabla {
+  color: black;
+  font-size: 25px;
+  width: 100%;
+}
+#nosotrostabla img {
+  border: solid;
+  border-color: darkred;
+  border-width: 3px;
+  width: 100%;
+}
+#nosotrostabla div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px;
+}
+#nosotrostabla p, #nosotrostabla a, #nosotrostabla label {
+  background-color: rgba(255, 255, 255, 0.7450980392);
+}
+
+#seo {
+  width: 100%;
+}
+
+#formulario {
+  color: black;
+  font-size: 25px;
+  width: 100%;
+}
+#formulario div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5px;
+}
+#formulario p, #formulario label {
+  background-color: rgba(255, 255, 255, 0.7450980392);
+}
+
+h1 {
+  display: none;
+}
+
+h2 {
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb;
+  color: rgb(216, 1, 1);
+  font-size: 40px;
+  margin: 30px, 0;
+}
+
+#jugadores {
+  width: 100%;
+}
+
+#jugador {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 100%;
+  background-color: rgba(255, 255, 255, 0.7450980392);
+  margin: 5px;
+  overflow: hidden;
+}
+#jugador img {
+  width: 100%;
+  transition: 2s;
+}
+#jugador img:hover {
+  transform: scale(1.2);
+  transition: 3s;
+}
+
+#articulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 150%;
+  background-color: rgba(255, 255, 255, 0.7450980392);
+  margin: 5px;
+  overflow: hidden;
+}
+#articulo img {
+  transition: 2s;
+}
+#articulo img:hover {
+  transform: scale(1.2);
+  transition: 3s;
+}
+
+#articulos {
+  width: 100%;
+}
+
+#agregar {
+  width: 30px;
+  height: 30px;
+}
+
+#carrito {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+#carrito img {
+  width: 70px;
+  margin-right: 60px;
+}
+
+#mail, #nombre {
+  width: 100%;
+}
+
+#navitem {
+  margin: 15px;
+}
+
+#navimg {
+  width: 50px;
+}
+
+/*# sourceMappingURL=hola.css.map */
