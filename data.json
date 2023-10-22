@@ -1,0 +1,14 @@
+{
+        "preguntas" : [
+            {"id": 1, "pregunta": "¿Cuánto es 38 x 4?", "respuestas": [{"answ":152}, {"answ":156}, {"answ":155}, {"answ":154}], "respuestaCorrecta":152,"ayuda":"La respuesta es un número par"},
+            {"id": 2, "pregunta": "¿Cuánto es 25 + 65 x (78 - 15)?", "respuestas": [{"answ": 5112}, {"answ": 4120}, {"answ": 4124}, {"answ": 4222}], "respuestaCorrecta":4120,"ayuda":"La respuesta es múltiplo de 4"},
+            {"id": 3, "pregunta": "¿Cuánto vale A si (A x 9) + 6 + 9 x 45 = 726?", "respuestas": [{"answ": 32}, {"answ": 45}, {"answ": 35}, {"answ": 42}], "respuestaCorrecta":35,"ayuda":"La respuesta es múltiplo de 5"},
+            {"id": 4, "pregunta": "¿Cuánto es 54556 x 456?", "respuestas": [{"answ": 124124123}, {"answ": 24877536}, {"answ": 12312323}, {"answ": 3}], "respuestaCorrecta":24877536,"ayuda":"La respuesta te sorprenderá"},
+            {"id": 5, "pregunta": "¿Cuál es el quinto número primo?", "respuestas": [{"answ": 42}, {"answ": 13}, {"answ": 11}, {"answ": 123}], "respuestaCorrecta":11,"ayuda":"La cantidad de jugadores en cancha en un equipo de fútbol"},
+            {"id": 6, "pregunta": "¿Nombre el único número primo par?", "respuestas": [{"answ": 0}, {"answ": 1}, {"answ": 4}, {"answ": 2}], "respuestaCorrecta":2,"ayuda":"Los números primos se pueden dividir por ellos mismos y por 1"},
+            {"id": 7, "pregunta": "¿Cuántos segundos hay en un día?", "respuestas": [{"answ": 89567}, {"answ": 67743}, {"answ": 86400}, {"answ": 86546}], "respuestaCorrecta":86400,"ayuda":"La respuesta puede dividirse por 100"},
+            {"id": 8, "pregunta": "¿Qué número es igual a 334×7+335?", "respuestas": [{"answ": 2673}, {"answ": 2561}, {"answ": 2765}, {"answ": 2451}], "respuestaCorrecta":2673,"ayuda":"La respuesta no termina en 1"},
+            {"id": 9, "pregunta": "¿Cuántos acres hacen una milla cuadrada?", "respuestas": [{"answ": 630}, {"answ": 640}, {"answ": 650}, {"answ": 660}], "respuestaCorrecta":640,"ayuda":"La respuesta no es ni el menor número ni el mayor"},
+            {"id": 10, "pregunta": "¿Cuántos grados hay en un ángulo recto?", "respuestas": [{"answ": 180}, {"answ": 360}, {"answ": 80}, {"answ": 90}], "respuestaCorrecta":90,"ayuda":"Recordá que decir que un ángulo es recto, es como decir que es cuatro veces la circunferencia total"}
+        ]
+}
